@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Web_api_crud_produit.MainPage">
+
+    <StackLayout>
+
+        <SwipeView>
+            <SwipeView.TopItems>
+                <SwipeItems  Mode="Execute">
+                    <SwipeItem Text="Add"  BackgroundColor="Blue"
+                                        Invoked="Navigate_Add"/>
+                </SwipeItems>
+            </SwipeView.TopItems>
+
+            <ListView x:Name="listProduits" ItemsSource="{Binding Produits}" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="4">
+                                <SwipeView>
+                                    <SwipeView.LeftItems>
+                                        <SwipeItems  Mode="Execute">
+                                            <SwipeItem Text="DELETE" CommandParameter="{Binding Id}"  BackgroundColor="Red"
+                                        Invoked="DeleteProduitAsync"/>
+                                        </SwipeItems>
+                                    </SwipeView.LeftItems>
+                                    <SwipeView.RightItems>
+                                        <SwipeItems Mode="Execute">
+                                            <SwipeItem Text="Update"  BackgroundColor="LightGreen"
+                                        Invoked="Navigate_Update"/>
+                                        </SwipeItems>
+                                    </SwipeView.RightItems>
+                                    <Label  x:Name="prod" Text="{Binding NameProduit}" Padding="30,20,30,20" TextColor="Black" FontAttributes="Bold" FontSize="Medium"/>
+
+                                </SwipeView>
+
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+
+        </SwipeView>
+
+
+
+        <!--<Label HeightRequest="60"
+            WidthRequest="300" BackgroundColor="White" Text="Start developing now"></Label>-->
+
+            
+
+
+        
+
+       
+
+        <!--<ListView ItemsSource="{Binding Produits}" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="4">
+                            <Label Text="{Binding NameProduit}" TextColor="Black" FontAttributes="Bold" FontSize="Medium"/>
+                            <Label Text="{Binding PrixProduit}" TextColor="Blue" FontAttributes="Bold" FontSize="Medium"/>
+                            <Label Text="{Binding Quantite}" TextColor="Black" FontAttributes="Bold" FontSize="Medium"/>
+                            
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>-->
+    </StackLayout>
+
+</ContentPage>

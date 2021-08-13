@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Web_api_crud_produit.Update">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Padding="4">
+                <Entry Placeholder="Name Produit" x:Name="EntryNameProduit"/>
+                <Entry Placeholder="Prix Produit" x:Name="EntryPrixProduit"/>
+                <Entry Placeholder="Quantite Produit" x:Name="EntryQuantite"/>
+                <Button Text="Update produit"  BackgroundColor="LightGreen" Clicked="Updateproduit_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,16 @@
+C:\Users\Youcode\source\repos\Web_api_crud_produit\Web_api_crud_produit\Web_api_crud_produit\bin\Debug\netstandard2.0\Web_api_crud_produit.deps.json
+C:\Users\Youcode\source\repos\Web_api_crud_produit\Web_api_crud_produit\Web_api_crud_produit\bin\Debug\netstandard2.0\Web_api_crud_produit.dll
+C:\Users\Youcode\source\repos\Web_api_crud_produit\Web_api_crud_produit\Web_api_crud_produit\bin\Debug\netstandard2.0\ref\Web_api_crud_produit.dll
+C:\Users\Youcode\source\repos\Web_api_crud_produit\Web_api_crud_produit\Web_api_crud_produit\bin\Debug\netstandard2.0\Web_api_crud_produit.pdb
+C:\Users\Youcode\source\repos\Web_api_crud_produit\Web_api_crud_produit\Web_api_crud_produit\obj\Debug\netstandard2.0\Web_api_crud_produit.csprojAssemblyReference.cache
+C:\Users\Youcode\source\repos\Web_api_crud_produit\Web_api_crud_produit\Web_api_crud_produit\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Youcode\source\repos\Web_api_crud_produit\Web_api_crud_produit\Web_api_crud_produit\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Youcode\source\repos\Web_api_crud_produit\Web_api_crud_produit\Web_api_crud_produit\obj\Debug\netstandard2.0\Web_api_crud_produit.AssemblyInfoInputs.cache
+C:\Users\Youcode\source\repos\Web_api_crud_produit\Web_api_crud_produit\Web_api_crud_produit\obj\Debug\netstandard2.0\Web_api_crud_produit.AssemblyInfo.cs
+C:\Users\Youcode\source\repos\Web_api_crud_produit\Web_api_crud_produit\Web_api_crud_produit\obj\Debug\netstandard2.0\Web_api_crud_produit.csproj.CoreCompileInputs.cache
+C:\Users\Youcode\source\repos\Web_api_crud_produit\Web_api_crud_produit\Web_api_crud_produit\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Youcode\source\repos\Web_api_crud_produit\Web_api_crud_produit\Web_api_crud_produit\obj\Debug\netstandard2.0\Web_api_crud_produit.dll
+C:\Users\Youcode\source\repos\Web_api_crud_produit\Web_api_crud_produit\Web_api_crud_produit\obj\Debug\netstandard2.0\ref\Web_api_crud_produit.dll
+C:\Users\Youcode\source\repos\Web_api_crud_produit\Web_api_crud_produit\Web_api_crud_produit\obj\Debug\netstandard2.0\Web_api_crud_produit.pdb
+C:\Users\Youcode\source\repos\Web_api_crud_produit\Web_api_crud_produit\Web_api_crud_produit\obj\Debug\netstandard2.0\Update.xaml.g.cs
+C:\Users\Youcode\source\repos\Web_api_crud_produit\Web_api_crud_produit\Web_api_crud_produit\obj\Debug\netstandard2.0\Add.xaml.g.cs
